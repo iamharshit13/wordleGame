@@ -1,9 +1,9 @@
+# PYenchant is used to test if a word is meaningfull or not
 import enchant
 d = enchant.Dict("en_US")
 
 word='hello'
 
-# print(d.check("HELLO"),d.check("LLOHE"))
 tempwordlist=["","","","",""]
 
 tries=0
